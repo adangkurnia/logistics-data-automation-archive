@@ -19,11 +19,10 @@ A collection of Python and Google Apps Script tools designed to automate high-vo
 
 | Script Name | Function | Workflow | Output | Tech Stack |
 | --- | --- | --- | --- | --- |
-| [delivery_next_day_3pl.ipynb](https://github.com/adangkurnia/logistics-etl-scripts/blob/main/colab_notebooks/delivery_next_day_3pl.ipynb) | Automate data preprocessing to generate excel files based on 3PL name | ETL: CSV → Clean → Excel | Files with xlsx format | Python (Pandas, NumPy, pytz, OpenPyXl) |
-| [delivery_next_day_timeslots.ipynb](https://github.com/adangkurnia/logistics-etl-scripts/blob/main/colab_notebooks/delivery_next_day_timeslots.ipynb) | Automate data preprocessing to generate Excel files based on time slots for next day delivery | ETL: CSV → Clean → Excel | Files with xlsx format | Python (pandas, numpy, pytz, openpyxl) |
-| [delivery_sameday_3pl.ipynb](https://github.com/adangkurnia/logistics-etl-scripts/blob/main/colab_notebooks/delivery_sameday_3pl.ipynb) | Automate data preprocessing to generate excel files based on 3PL name for same day delivery | ETL: CSV → Clean → Excel | Files with xlsx format | Python (pandas, numpy, pytz, openpyxl) |
-| [fleet_utilization_capacity_extraction.ipynb](https://github.com/adangkurnia/logistics-etl-scripts/blob/main/colab_notebooks/fleet_utilization_capacity_extraction.ipynb) | Automate data preprocessing to generate csv file | ETL: CSV → Clean → Cleaned CSV | Files with csv format | Python (pandas, numpy) |
-| [fleet_utilization_middle_mile_viz.ipynb](https://github.com/adangkurnia/logistics-etl-scripts/blob/main/colab_notebooks/fleet_utilization_middle_mile_viz.ipynb) | Automate fleet capacity dashboards in Google Colab to provide visibility into Middle Mile utilization metrics. | Cleaned CSV → Data Visualization | Dashboard Viz | Python (pandas, numpy, matplotlib, seaborn) |
+| [last_mile_delivery_report_automation_3pl.ipynb](https://github.com/adangkurnia/logistics-etl-scripts/blob/main/colab_notebooks/delivery_next_day_3pl.ipynb) | Automate data preprocessing to generate excel files based on 3PL name | ETL: CSV → Clean → Excel | Files with xlsx format | Python (Pandas, NumPy, pytz, OpenPyXl) |
+| [last_mile_delivery_report_automation_time_slot.ipynb](https://github.com/adangkurnia/logistics-etl-scripts/blob/main/colab_notebooks/delivery_next_day_timeslots.ipynb) | Automate data preprocessing to generate Excel files based on time slots for next day delivery | ETL: CSV → Clean → Excel | Files with xlsx format | Python (pandas, numpy, pytz, openpyxl) |
+| [01_middle_mile_fleet_data_extraction_automation.ipynb](https://github.com/adangkurnia/logistics-etl-scripts/blob/main/colab_notebooks/fleet_utilization_capacity_extraction.ipynb) | Automate data preprocessing to generate csv file | ETL: CSV → Clean → Cleaned CSV | Files with csv format | Python (pandas, numpy) |
+| [02_middle_mile_utilization_preview_automation.ipynb](https://github.com/adangkurnia/logistics-etl-scripts/blob/main/colab_notebooks/fleet_utilization_middle_mile_viz.ipynb) | Automate fleet capacity dashboards in Google Colab to provide visibility into Middle Mile utilization metrics. | Cleaned CSV → Data Visualization | Dashboard Viz | Python (pandas, numpy, matplotlib, seaborn) |
 | [reset_attendance.js](https://github.com/adangkurnia/logistics-etl-scripts/blob/main/app_script/reset_attendance.js) | Automate the data cleaning across multiple tabs | Google Sheets Automation | Clean cells | Apps Script |
 
 ## **HOW TO USE**
@@ -35,7 +34,7 @@ These scripts are designed for **Google Colab.**
 2. **Input:** Download raw `.csv` file sample provided in `/data_samples`).
 3. **Run:** Select `Runtime > Run All` from the top menu.
 4. **Output:** 
-    1. 3PL reconciliation data: the cleaned and formatted `.xlsx` files will be generated and downloaded automatically.
+    1. Last mile delivery reconciliation data: the cleaned and formatted `.xlsx` files will be generated and downloaded automatically.
     2. Fleets: the cleaned csv file and data visualization.
 
 ### 📝 2. Google Apps Script (Macro & Spreadsheet Automation)
